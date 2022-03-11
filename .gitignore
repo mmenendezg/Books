@@ -1,0 +1,13 @@
+# Ignore the MacOS files
+.DS_Store
+
+# Ignore the history of the Jupyter Notebooks
+.ipynb_checkpoints
+
+# Cache files
+__pycache__
+
+
+# VS Code files
+.vscode
+*.code-workspace

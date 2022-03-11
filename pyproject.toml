@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "Books"
+version = "0.1.0"
+description = "Notebooks for some machine learning books"
+authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+Cython = "^0.29.28"
+pkgconfig = "^1.5.5"
+h5py = "^3.6.0"
+tensorflow-macos = "^2.8.0"
+tensorflow-metal = "^0.4.0"
+tensorboard-plugin-profile = "^2.5.0"
+jupyterlab = "^3.2.9"
+scipy = "^1.8.0"
+scikit-learn = "^1.0.2"
+torch = "^1.10.2"
+torchvision = "^0.11.3"
+pandas = "^1.4.1"
+matplotlib = "^3.5.1"
+seaborn = "^0.11.2"
+nltk = "^3.7"
+bokeh = "^2.4.2"
+tensorflow-datasets = "^4.5.2"
+flake8 = "^4.0.1"
+certifi = "^2021.10.8"
+transformers = "^4.16.2"
+JLDracula = "^0.1.0"
+ipython = "^8.1.0"
+tensorflow-hub = "^0.12.0"
+pymongo = "3.9"
+numpy = "^1.22.2"
+tensorflow-addons = "^0.16.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

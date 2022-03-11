@@ -1,0 +1,10 @@
+# Git Repo for Books
+
+This respository is a collection of the books and exercises that I complete in my formation as a Machine Learning Engineering.
+
+This repository contains the following books:
+
+| Book  | Porcentage|
+|:-------:|:-----------:|
+|Hands on Machine Learning with Scikit-Learn, Keras and Tensorflow| ![50%](https://progress-bar.dev/50) |
+| Practical Natural Language Processing| ![30%](https://progress-bar.dev/30)|
