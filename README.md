@@ -4,7 +4,7 @@ This respository is a collection of the books and exercises that I complete in m
 
 This repository contains the following books:
 
-| Book  | Porcentage|
+|Book|Progress|
 |:-------:|:-----------:|
 |Hands on Machine Learning with Scikit-Learn, Keras and Tensorflow| ![14/19](https://progress-bar.dev/14/?scale=19&title=Chapters&suffix=/19)|
 |Practical Machine Learning for Computer Vision| ![3/12](https://progress-bar.dev/3/?scale=12&title=Chapters&suffix=/12)|
