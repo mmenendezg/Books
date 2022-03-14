@@ -1,4 +1,4 @@
-# Git Repo for Books
+# Repository for Machine LearninBooks
 
 This respository is a collection of the books and exercises that I complete in my formation as a Machine Learning Engineering.
 
