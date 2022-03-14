@@ -1,5 +1,3 @@
-
-
 def exponential_decay(lr0, s):
     """Implements exponential decay of learning rate
     
