@@ -35,6 +35,8 @@ numpy = "^1.22.2"
 tensorflow-addons = "^0.16.1"
 gsutil = "^5.8"
 ipykernel = "^6.10.0"
+black = "^22.3.0"
+pylint = "^2.13.2"
 
 [tool.poetry.dev-dependencies]
 
