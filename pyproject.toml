@@ -1,0 +1,33 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Marlon Menendez", email = "marlon.menendezg@gmail.com"},
+]
+license-expression = "MIT"
+dependencies = [
+    "tensorflow-macos>=2.8.0",
+    "transformers>=4.17.0",
+    "scikit-learn>=1.0.2",
+    "jupyterlab>=3.3.2",
+    "tensorflow-datasets>=4.5.2",
+    "bokeh>=2.4.2",
+    "matplotlib>=3.5.1",
+    "seaborn>=0.11.2",
+    "flake8>=4.0.1",
+    "black>=22.3.0",
+    "pylint>=2.13.3",
+    "tensorflow-metal>=0.4.0",
+]
+requires-python = ">=3.9,<3.11"
+
+[project.urls]
+Homepage = ""
+
+[tool]
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
