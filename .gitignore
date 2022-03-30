@@ -6,6 +6,7 @@
 
 # Cache files
 __pycache__
+__pypackages__
 
 
 # VS Code files
