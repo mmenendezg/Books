@@ -7,6 +7,7 @@
 # Cache files
 __pycache__
 __pypackages__
+*.pdm.toml
 
 
 # VS Code files
