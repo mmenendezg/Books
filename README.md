@@ -7,5 +7,5 @@ This repository contains the following books:
 |Book|Progress|
 |:-------:|:-----------:|
 |Hands on Machine Learning with Scikit-Learn, Keras and Tensorflow| ![14/19](https://progress-bar.dev/14/?scale=19&title=Chapters&suffix=/19)|
-|Practical Machine Learning for Computer Vision| ![4/12](https://progress-bar.dev/4/?scale=12&title=Chapters&suffix=/12)|
+|Practical Machine Learning for Computer Vision| ![5/12](https://progress-bar.dev/5/?scale=12&title=Chapters&suffix=/12)|
 |Tensorboard Tutorials|![13/13](https://progress-bar.dev/13/?scale=13&title=Chapters&suffix=/13)|
