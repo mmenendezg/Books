@@ -1,27 +1,20 @@
-[tool.poetry]
-name = "Books"
-version = "1.1.0"
-description = "This project contains notebooks of some Machine Learning Books"
-authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
-license = "MIT"
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Marlon Menendez", email = "marlon.menendezg@gmail.com"},
+]
+license-expression = "MIT"
+dependencies = []
+requires-python = ">=3.9,<3.11"
 
-[tool.poetry.dependencies]
-python = ">=3.9,<3.11"
-tensorflow-macos = "^2.8.0"
-tensorflow-metal = "^0.4.0"
-matplotlib = "^3.5.1"
-seaborn = "^0.11.2"
-tensorflow-datasets = "^4.5.2"
-transformers = "^4.17.0"
-flake8 = "^4.0.1"
-black = "^22.3.0"
-ipykernel = "^6.11.0"
-pylint = "^2.13.4"
-scikit-learn = "^1.0.2"
-jupyterlab = "^3.3.2"
+[project.urls]
+Homepage = ""
 
-[tool.poetry.dev-dependencies]
+[tool]
+[tool.pdm]
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
