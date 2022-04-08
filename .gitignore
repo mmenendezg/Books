@@ -8,7 +8,7 @@
 __pycache__
 __pypackages__
 *.pdm.toml
-
+.venv
 
 # VS Code files
 .vscode
