@@ -20,6 +20,8 @@ pylint = "^2.13.4"
 scikit-learn = "^1.0.2"
 jupyterlab = "^3.3.2"
 tensorflow-hub = "^0.12.0"
+bokeh = "^2.4.2"
+pymongo = "^4.1.0"
 
 [tool.poetry.dev-dependencies]
 notebook = "^6.4.10"
