@@ -1,12 +1,11 @@
 [tool.poetry]
 name = "Books"
-version = "1.0.0"
-description = "Notebooks for some machine learning books."
+version = "1.1.0"
+description = "This project contains notebooks for different machine learning books."
 authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-tensorflow-macos = "^2.8.0"
 tensorflow-metal = "^0.4.0"
 matplotlib = "^3.5.1"
 seaborn = "^0.11.2"
@@ -15,12 +14,21 @@ transformers = "^4.18.0"
 flake8 = "^4.0.1"
 black = "^22.3.0"
 ipykernel = "^6.12.1"
-pylint = "^2.13.5"
+pylint = "^2.13.4"
 scikit-learn = "^1.0.2"
+jupyterlab = "^3.3.2"
 tensorflow-hub = "^0.12.0"
-apache-beam = "^2.37.0"
+bokeh = "^2.4.2"
+pymongo = "^4.1.0"
+torch = "^1.11.0"
+torchvision = "^0.12.0"
+tensorboard-plugin-profile = "^2.8.0"
+nltk = "^3.7"
+tensorflow-macos = "2.9.1"
+shap = "^0.41.0"
 
 [tool.poetry.dev-dependencies]
+notebook = "^6.4.10"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
