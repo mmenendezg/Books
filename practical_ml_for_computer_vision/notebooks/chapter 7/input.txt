@@ -1,0 +1,2 @@
+gs://practical-ml-vision-book/images/california_fire1.jpg
+gs://practical-ml-vision-book/images/california_fire2.jpg

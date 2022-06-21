@@ -7,7 +7,6 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-tensorflow-macos = "^2.8.0"
 tensorflow-metal = "^0.4.0"
 matplotlib = "^3.5.1"
 seaborn = "^0.11.2"
@@ -25,6 +24,9 @@ pymongo = "^4.1.0"
 torch = "^1.11.0"
 torchvision = "^0.12.0"
 tensorboard-plugin-profile = "^2.8.0"
+nltk = "^3.7"
+tensorflow-macos = "2.9.1"
+shap = "^0.41.0"
 
 [tool.poetry.dev-dependencies]
 notebook = "^6.4.10"
