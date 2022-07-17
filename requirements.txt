@@ -1,0 +1,16 @@
+apache-beam
+xgboost
+tensorflow-macos
+tensorflow-metal
+tensorflow-addons
+tensorflow-hub
+tensorflow-datasets
+torch
+torchvision
+torchaudio
+transformers
+jupyter-lab
+scikit-learn
+scikit-image
+black
+flake8
