@@ -4,6 +4,9 @@
 # Ignore the history of the Jupyter Notebooks
 .ipynb_checkpoints
 
+# Packages of the project
+packages/
+
 # Cache files
 __pycache__
 __pypackages__

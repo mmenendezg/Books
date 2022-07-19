@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "Books"
+version = "1.2.11"
+description = "The project contains notebooks for different Machine Learning books"
+authors = ["Marlon Menendez <44656927+mmenendezg@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+xgboost = "^1.6.1"
+apache-beam = "^2.40.0"
+tensorflow-macos = "^2.9.2"
+tensorflow-metal = "^0.5.0"
+tensorflow-datasets = "^4.6.0"
+tensorflow-hub = "^0.12.0"
+tensorflow-addons = "^0.17.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
