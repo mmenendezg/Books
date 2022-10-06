@@ -1,36 +1,19 @@
 [tool.poetry]
-name = "Books"
-version = "1.2.11"
-description = "The project contains notebooks for different Machine Learning books"
+name = "books"
+version = "1.2"
+description = "Notebooks of machine learning books"
 authors = ["Marlon Menendez <44656927+mmenendezg@users.noreply.github.com>"]
 license = "MIT"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
-xgboost = "^1.6.1"
-apache-beam = "^2.40.0"
-tensorflow-macos = "^2.9.2"
-tensorflow-metal = "^0.5.0"
-tensorflow-datasets = "^4.6.0"
-tensorflow-hub = "^0.12.0"
-tensorflow-addons = "^0.17.1"
-tensorflow-io-gcs-filesystem = {path = "packages/tensorflow_io_gcs_filesystem-0.26.0-cp310-cp310-macosx_12_0_arm64.whl"}
-tensorflow-io = {path = "packages/tensorflow_io-0.26.0-cp310-cp310-macosx_12_0_arm64.whl"}
-jupyterlab = "^3.4.3"
-scikit-learn = "^1.1.1"
-scikit-image = "^0.19.3"
-torch = "^1.12.0"
-torchvision = "^0.13.0"
-torchaudio = "^0.12.0"
-flake8 = "^4.0.1"
-black = "^22.6.0"
-matplotlib = "^3.5.2"
-seaborn = "^0.11.2"
-bokeh = "^2.4.3"
-notebook = "^6.4.12"
+tensorflow-io-gcs-filesystem = {path = "packages/tensorflow_io_gcs_filesystem-0.27.0-cp310-cp310-macosx_12_0_arm64.whl"}
+tensorflow-io = {path = "packages/tensorflow_io-0.27.0-cp310-cp310-macosx_12_0_arm64.whl"}
+opencv-python = "^4.6.0.66"
+opencv-python-headless = "^4.6.0.66"
 
-[tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
