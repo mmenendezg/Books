@@ -1,45 +1,17 @@
 [tool.poetry]
 name = "books"
-version = "1.1.0"
-description = "This project contains the notebooks of the books for my machine learning path"
+version = "1.2"
+description = "Notebooks of machine learning books"
 authors = ["Marlon Menendez <44656927+mmenendezg@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
-xgboost = "^1.6.2"
-tensorflow-macos = "^2.10.0"
-tensorflow-metal = "^0.6.0"
-jupyterlab = "^3.4.7"
-matplotlib = "^3.6.0"
-torch = "^1.12.1"
-torchvision = "^0.13.1"
-black = "^22.8.0"
-flake8 = "^5.0.4"
-six = "^1.16.0"
-google-api-python-client = "^2.63.0"
-kaggle = "^1.5.12"
-numpy = "^1.23.3"
-pandas = "^1.5.0"
-psutil = "^5.9.2"
-oauth2client = "^4.1.3"
-py-cpuinfo = "^8.0.0"
-scipy = "^1.9.1"
-tensorflow-hub = "^0.12.0"
-tensorflow-datasets = "^4.6.0"
-tensorflow-addons = "^0.18.0"
-tensorflow-model-optimization = "^0.7.3"
-gin-config = "^0.5.0"
-tf-slim = "^1.1.0"
-Cython = "^0.29.32"
-PyYAML = "^6.0"
-Pillow = "^9.2.0"
-pycocotools = "^2.0.5"
-seqeval = "^1.2.2"
-sentencepiece = "^0.1.97"
-sacrebleu = "2.2.0"
-immutabledict = "^2.2.1"
+tensorflow-io-gcs-filesystem = {path = "packages/tensorflow_io_gcs_filesystem-0.27.0-cp310-cp310-macosx_12_0_arm64.whl"}
+tensorflow-io = {path = "packages/tensorflow_io-0.27.0-cp310-cp310-macosx_12_0_arm64.whl"}
+opencv-python = "^4.6.0.66"
+opencv-python-headless = "^4.6.0.66"
 
 
 [build-system]
