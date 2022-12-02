@@ -1,17 +1,31 @@
 [tool.poetry]
 name = "books"
-version = "1.2"
-description = "Notebooks of machine learning books"
-authors = ["Marlon Menendez <44656927+mmenendezg@users.noreply.github.com>"]
+version = "1.2.0"
+description = "Notebooks of several ML Books"
+authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
-tensorflow-io-gcs-filesystem = {path = "packages/tensorflow_io_gcs_filesystem-0.27.0-cp310-cp310-macosx_12_0_arm64.whl"}
-tensorflow-io = {path = "packages/tensorflow_io-0.27.0-cp310-cp310-macosx_12_0_arm64.whl"}
-opencv-python = "^4.6.0.66"
-opencv-python-headless = "^4.6.0.66"
+tensorflow-macos = "^2.10.0"
+tensorflow-metal = "^0.6.0"
+xgboost = "^1.7.1"
+scikit-learn = "^1.1.3"
+pandas = "^1.5.2"
+numpy = "^1.23.5"
+tensorboard = "2.10"
+tensorboard-plugin-profile = "^2.11.1"
+jupyterlab = "^3.5.0"
+matplotlib = "^3.6.2"
+black = "^22.10.0"
+flake8 = "^6.0.0"
+seaborn = "^0.12.1"
+tensorflow-hub = "^0.12.0"
+tensorflow-datasets = "^4.7.0"
+transformers = "^4.25.1"
+datasets = "^2.7.1"
+nltk = "^3.7"
 
 
 [build-system]
