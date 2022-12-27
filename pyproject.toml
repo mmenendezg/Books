@@ -29,6 +29,7 @@ nltk = "^3.7"
 tensorflow-io = {file = "packages/tensorflow_io-0.27.0-cp310-cp310-macosx_12_0_arm64.whl"}
 tensorflow-io-gcs-filesystem = {file = "packages/tensorflow_io_gcs_filesystem-0.27.0-cp310-cp310-macosx_12_0_arm64.whl"}
 gin = "^0.1.6"
+augmentor = "^0.2.10"
 
 
 [build-system]
