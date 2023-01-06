@@ -1,0 +1,11 @@
+error 19:34:12.100: Error in waiting for cell to complete Error: Canceled future for execute_request message before replies were done
+    at t.KernelShellFutureHandler.dispose (/Users/mmenendezg/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:32353)
+    at /Users/mmenendezg/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:26572
+    at Map.forEach (<anonymous>)
+    at v._clearKernelState (/Users/mmenendezg/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:26557)
+    at /Users/mmenendezg/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:29000
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+warn 19:34:12.106: Cell completed with errors {
+  message: 'Canceled future for execute_request message before replies were done'
+}
+info 19:34:12.110: Cancel all remaining cells true || Error || undefined
