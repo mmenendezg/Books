@@ -650,6 +650,17 @@ python-versions = ">=3.7"
 protobuf = ["grpcio-tools (>=1.51.1)"]
 
 [[package]]
+name = "gviz-api"
+version = "1.10.0"
+description = "Python API for Google Visualization"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+six = "*"
+
+[[package]]
 name = "h5py"
 version = "3.7.0"
 description = "Read and write HDF5 files from Python"
@@ -1915,6 +1926,21 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "tensorboard-plugin-profile"
+version = "2.11.1"
+description = "Profile Tensorboard Plugin"
+category = "main"
+optional = false
+python-versions = ">= 2.7, != 3.0.*, != 3.1.*"
+
+[package.dependencies]
+gviz-api = ">=1.9.0"
+protobuf = ">=3.12.0"
+setuptools = ">=41.0.0"
+six = ">=1.10.0"
+werkzeug = ">=0.11.15"
+
+[[package]]
 name = "tensorboard-plugin-wit"
 version = "1.8.1"
 description = "What-If Tool TensorBoard plugin."
@@ -2413,7 +2439,7 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10,<3.11"
-content-hash = "1a39667f8bc3b2fed15980b76e0403b0e07bd6a367416f0e1395067f13a97b38"
+content-hash = "488c679539a5906b8ec437a61802ad0b00825df173f2f6eec9fefed9a2e40771"
 
 [metadata.files]
 absl-py = [
@@ -3008,6 +3034,10 @@ grpcio = [
     {file = "grpcio-1.51.1-cp39-cp39-win32.whl", hash = "sha256:aacb54f7789ede5cbf1d007637f792d3e87f1c9841f57dd51abf89337d1b8472"},
     {file = "grpcio-1.51.1-cp39-cp39-win_amd64.whl", hash = "sha256:2b170eaf51518275c9b6b22ccb59450537c5a8555326fd96ff7391b5dd75303c"},
     {file = "grpcio-1.51.1.tar.gz", hash = "sha256:e6dfc2b6567b1c261739b43d9c59d201c1b89e017afd9e684d85aa7a186c9f7a"},
+]
+gviz-api = [
+    {file = "gviz_api-1.10.0-py2.py3-none-any.whl", hash = "sha256:a05055fed8c279f34f4b496eace7648c7fe9c1b06851e8a36e748541f1adbb05"},
+    {file = "gviz_api-1.10.0.tar.gz", hash = "sha256:846692dd8cc73224fc31b18e41589bd934e1cc05090c6576af4b4b26c2e71b90"},
 ]
 h5py = [
     {file = "h5py-3.7.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:d77af42cb751ad6cc44f11bae73075a07429a5cf2094dfde2b1e716e059b3911"},
@@ -4088,6 +4118,10 @@ tensorboard-data-server = [
     {file = "tensorboard_data_server-0.6.1-py3-none-any.whl", hash = "sha256:809fe9887682d35c1f7d1f54f0f40f98bb1f771b14265b453ca051e2ce58fca7"},
     {file = "tensorboard_data_server-0.6.1-py3-none-macosx_10_9_x86_64.whl", hash = "sha256:fa8cef9be4fcae2f2363c88176638baf2da19c5ec90addb49b1cde05c95c88ee"},
     {file = "tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl", hash = "sha256:d8237580755e58eff68d1f3abefb5b1e39ae5c8b127cc40920f9c4fb33f4b98a"},
+]
+tensorboard-plugin-profile = [
+    {file = "tensorboard_plugin_profile-2.11.1-py3-none-any.whl", hash = "sha256:b7d0198340468c370ec6da1104764ed23a0880b1e9a0aa84518e29c66c3cb238"},
+    {file = "tensorboard_plugin_profile-2.11.1.tar.gz", hash = "sha256:7a97c02d502fde98a0336aadcab15b37169744d5bf6966af7d576c7a3f0a89f4"},
 ]
 tensorboard-plugin-wit = [
     {file = "tensorboard_plugin_wit-1.8.1-py3-none-any.whl", hash = "sha256:ff26bdd583d155aa951ee3b152b3d0cffae8005dc697f72b44a8e8c2a77a8cbe"},

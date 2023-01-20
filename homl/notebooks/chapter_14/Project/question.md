@@ -36,7 +36,7 @@ warn 17:54:33.730: Cell completed with errors {
 info 17:54:33.732: Cancel all remaining cells true || Error || undefined
 ```
 
-Find the full logs in my GitHub.
+Find the full logs in my [GitHub](https://github.com/mmenendezg/Books/blob/homl/homl/notebooks/chapter_14/Project/train_model.log).
 
 Could anyone help me to troubleshoot this situation. 
 

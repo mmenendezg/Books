@@ -24,6 +24,7 @@ seaborn = "^0.12.2"
 transformers = "^4.25.1"
 datasets = "^2.8.0"
 tensorboard = "^2.11.0"
+tensorboard-plugin-profile = "^2.11.1"
 
 
 [build-system]
