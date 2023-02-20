@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "books"
-version = "1.14.0"
+version = "1.5.0"
 description = "Notebooks of several ML Books"
 authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
 license = "MIT"
