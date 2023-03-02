@@ -7,6 +7,9 @@
 # Packages of the project
 packages/
 
+# Datasets 
+*/datasets/
+
 # Cache files
 __pycache__
 __pypackages__
