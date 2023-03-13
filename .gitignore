@@ -7,8 +7,10 @@
 # Packages of the project
 packages/
 
-# Datasets 
+# Project folders not to be tracked
 */datasets/
+*/reports/
+*/models/
 
 # Cache files
 __pycache__
