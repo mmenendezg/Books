@@ -11,6 +11,7 @@ packages/
 */datasets/
 */reports/
 */models/
+homl/reports/
 
 # Cache files
 __pycache__
