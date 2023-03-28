@@ -1,0 +1,26 @@
+info 17:52:45.516: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0b20fb8559386147dc77cba9f7518a8c175fc982b8c10bebe842520e16b3ac5d9./Users/mmenendezg/Developer/Books/.venv/python./Users/mmenendezg/Developer/Books/.venv/python.-m#ipykernel_launcher (Python Path: /Users/mmenendezg/Developer/Books/.venv, EnvType: Poetry, EnvName: '.venv', Version: 3.10.8 (main, Oct 13 2022, 09:48:40) [Clang 14.0.0 (clang-1400.0.29.102)]) for '/Users/mmenendezg/Developer/Books/homl/notebooks/chapter_14/Project/lung_colon_histopathology.ipynb' (disableUI=false)
+[I 17:52:45.521 NotebookApp] Creating new notebook in /homl/notebooks/chapter_14/Project
+info 17:52:45.554: installMissingDependencies /Users/mmenendezg/Developer/Books/.venv/bin/python, ui.disabled=false for resource '/Users/mmenendezg/Developer/Books/homl/notebooks/chapter_14/Project/lung_colon_histopathology.ipynb'
+info 17:52:45.555: Got env vars with python /Users/mmenendezg/Developer/Books/.venv/bin/python, with env var count 45 and custom env var count 0 in 1ms
+info 17:52:45.555: Process Execution: > ~/Developer/Books/.venv/bin/python -c "import ipykernel"
+> ~/Developer/Books/.venv/bin/python -c "import ipykernel"
+info 17:52:45.683: Spec argv[0] updated from '/Users/mmenendezg/Developer/Books/.venv/bin/python' to '/Users/mmenendezg/Developer/Books/.venv/bin/python'
+info 17:52:45.714: Got env vars with python /Users/mmenendezg/Developer/Books/.venv/bin/python, with env var count 45 and custom env var count 41 in 31ms
+[I 17:52:45.721 NotebookApp] Kernel started: 2094c6ae-b206-460a-8017-40023cae6efa, name: pythonjvsc74a57bd0b20fb8559386147dc77cba9f7518a8c175fc982b8c10bebe842520e16b3ac5d9
+[W 17:52:45.733 NotebookApp] delete /homl/notebooks/chapter_14/Project/lung_colon_histopathology-jvsc-142c0fec-0f25-4bb6-af00-eefafd3e1e0c44bf789e-c7a6-4949-b79a-177cf3f0050e.ipynb
+info 17:52:46.212: Started session for kernel startUsingPythonInterpreter:.jvsc74a57bd0b20fb8559386147dc77cba9f7518a8c175fc982b8c10bebe842520e16b3ac5d9./Users/mmenendezg/Developer/Books/.venv/python./Users/mmenendezg/Developer/Books/.venv/python.-m#ipykernel_launcher
+info 17:52:46.213: UpdateWorkingDirectoryAndPath in Kernel
+info 17:52:46.227: Got env vars with python /Users/mmenendezg/Developer/Books/.venv/bin/python, with env var count 45 and custom env var count 41 in 0ms
+info 17:52:46.230: Process Execution: > ~/Developer/Books/.venv/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/pythonFiles/printJupyterDataDir.py
+> ~/Developer/Books/.venv/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/pythonFiles/printJupyterDataDir.py
+error 17:54:33.727: Error in waiting for cell to complete Error: Canceled future for execute_request message before replies were done
+    at t.KernelShellFutureHandler.dispose (/Users/mmenendezg/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:32353)
+    at /Users/mmenendezg/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:26572
+    at Map.forEach (<anonymous>)
+    at v._clearKernelState (/Users/mmenendezg/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:26557)
+    at /Users/mmenendezg/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:29000
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+warn 17:54:33.730: Cell completed with errors {
+  message: 'Canceled future for execute_request message before replies were done'
+}
+info 17:54:33.732: Cancel all remaining cells true || Error || undefined
