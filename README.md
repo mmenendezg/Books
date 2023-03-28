@@ -9,4 +9,4 @@ This repository contains the following books:
 |Hands on Machine Learning with Scikit-Learn, Keras and Tensorflow| ![10/19](https://progress-bar.dev/10/?scale=19&title=Chapters&suffix=/19)|
 |Practical Machine Learning for Computer Vision| ![0/12](https://progress-bar.dev/0/?scale=12&title=Chapters&suffix=/12)|
 |Tensorboard Tutorials|![13/13](https://progress-bar.dev/13/?scale=13&title=Chapters&suffix=/13)|
-|SQL for Data Analysis|![0/9](https://progress-bar.dev/9/?scale=13&title=Chapters&suffix=/9)|
+|SQL for Data Analysis|![0/9](https://progress-bar.dev/0/?scale=9&title=Chapters&suffix=/9)|
