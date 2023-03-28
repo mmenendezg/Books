@@ -1,3 +1,4 @@
+
 # Ignore the MacOS files
 .DS_Store
 
@@ -6,6 +7,12 @@
 
 # Packages of the project
 packages/
+
+# Project folders not to be tracked
+*/datasets/
+*/reports/
+*/models/
+homl/reports/
 
 # Cache files
 __pycache__
