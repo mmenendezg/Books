@@ -22,3 +22,8 @@ __pypackages__
 # VS Code files
 .vscode
 *.code-workspace
+
+
+# Added by cargo
+/src
+/target
