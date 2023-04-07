@@ -2179,8 +2179,10 @@ python-versions = "*"
 files = [
     {file = "libclang-16.0.0-py2.py3-none-macosx_10_9_x86_64.whl", hash = "sha256:65258a6bb3e7dc31dc9b26f8d42f53c9d3b959643ade291fcd1aef4855303ca6"},
     {file = "libclang-16.0.0-py2.py3-none-macosx_11_0_arm64.whl", hash = "sha256:af55a4aa86fdfe6b2ec68bc8cfe5fdac6c448d591ca7648be86ca17099b41ca8"},
+    {file = "libclang-16.0.0-py2.py3-none-manylinux2010_x86_64.whl", hash = "sha256:a043138caaf2cb076ebb060c6281ec95612926645d425c691991fc9df00e8a24"},
     {file = "libclang-16.0.0-py2.py3-none-manylinux2014_aarch64.whl", hash = "sha256:eb59652cb0559c0e71784ff4c8ba24c14644becc907b1446563ecfaa622d523b"},
     {file = "libclang-16.0.0-py2.py3-none-manylinux2014_armv7l.whl", hash = "sha256:7b6686b67a0daa84b4c614bcc119578329fc4fbb52b919565b7376b507c4793b"},
+    {file = "libclang-16.0.0-py2.py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:2adce42ae652f312245b8f4eda6f30b4076fb61f7619f2dfd0a0c31dee4c32b9"},
     {file = "libclang-16.0.0-py2.py3-none-win_amd64.whl", hash = "sha256:ee20bf93e3dd330f71fc50cdbf13b92ced0aec8e540be64251db53502a9b33f7"},
     {file = "libclang-16.0.0-py2.py3-none-win_arm64.whl", hash = "sha256:bf4628fc4da7a1dd06a244f9b8e121c5ec68076a763c59d6b13cbb103acc935b"},
 ]
@@ -4114,6 +4116,40 @@ files = [
 ]
 
 [[package]]
+name = "tensorflow-addons"
+version = "0.19.0"
+description = "TensorFlow Addons."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "tensorflow_addons-0.19.0-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:ca3764beba54c4ee4bb01a4294f8c2fef5c3814fd0f521dbe8beb4522545cb2d"},
+    {file = "tensorflow_addons-0.19.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:8f74646fe83fd6f0d84ae5e0186c85cae3dd7e6c2329c8a5db4574c144706f39"},
+    {file = "tensorflow_addons-0.19.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a46016fe9a1705043e39b7dacee3b089303ecdedbf1b12eb607aa35b7d2471e3"},
+    {file = "tensorflow_addons-0.19.0-cp310-cp310-win_amd64.whl", hash = "sha256:eefbdb4e0450b93fba6b393870784dad4c91189e5551e01b268aeb5fe5b04da6"},
+    {file = "tensorflow_addons-0.19.0-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:a297db1af6e682277f593411d4d28b939646c2b67b8351ef0d31a30b9531fb93"},
+    {file = "tensorflow_addons-0.19.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:06b673fe22c4113edabdc0dc1ef919ba0f1fb024ca39a5718ec146285c400e8f"},
+    {file = "tensorflow_addons-0.19.0-cp37-cp37m-win_amd64.whl", hash = "sha256:eefb6bf6d7a31d60649d6f6e99aee172ed4f5e693a079acfb264297997de21d0"},
+    {file = "tensorflow_addons-0.19.0-cp38-cp38-macosx_10_14_x86_64.whl", hash = "sha256:d447a3f7852810b7985c890852dbcb6454f3899100d439d5eba370a78d8bd281"},
+    {file = "tensorflow_addons-0.19.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:51fefd5f496ada5dafb13c446853fa1ddeb5482a0b9074af14efe0b99903816e"},
+    {file = "tensorflow_addons-0.19.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:101c3142149f16e81362cc1d0959686543cb69df79f38a3ea3c5205fbf57b28e"},
+    {file = "tensorflow_addons-0.19.0-cp38-cp38-win_amd64.whl", hash = "sha256:c93602cf3b8a7bbe1fbf973b7b9f986892be34ba8b943923f09ae6cd79f0a241"},
+    {file = "tensorflow_addons-0.19.0-cp39-cp39-macosx_10_14_x86_64.whl", hash = "sha256:fc058876dce711009227c47559b05295a5fb480748d6ec5c49386b1dc2c00167"},
+    {file = "tensorflow_addons-0.19.0-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:9334910bb6b599dd627e632a59f35ae9256bda2312b06929066a437076bf4789"},
+    {file = "tensorflow_addons-0.19.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f25b029a917b635162b1f14df0263b2f79deadcd71daecd3161f69ccb1fbcea4"},
+    {file = "tensorflow_addons-0.19.0-cp39-cp39-win_amd64.whl", hash = "sha256:b8f4c3a88b381bd28bba3189a0216749f9e799ae3dc4959651728e01ae20d738"},
+]
+
+[package.dependencies]
+packaging = "*"
+typeguard = ">=2.7"
+
+[package.extras]
+tensorflow = ["tensorflow (>=2.9.0,<2.12.0)"]
+tensorflow-cpu = ["tensorflow-cpu (>=2.9.0,<2.12.0)"]
+tensorflow-gpu = ["tensorflow-gpu (>=2.9.0,<2.12.0)"]
+
+[[package]]
 name = "tensorflow-datasets"
 version = "4.9.0"
 description = "tensorflow/datasets is a library of datasets ready to use with TensorFlow."
@@ -4599,6 +4635,25 @@ torch-vision = ["Pillow", "torchvision"]
 torchhub = ["filelock", "huggingface-hub (>=0.11.0,<1.0)", "importlib-metadata", "numpy (>=1.17)", "packaging (>=20.0)", "protobuf (<=3.20.2)", "regex (!=2019.12.17)", "requests", "sentencepiece (>=0.1.91,!=0.1.92)", "tokenizers (>=0.11.1,!=0.11.3,<0.14)", "torch (>=1.7,!=1.12.0)", "tqdm (>=4.27)"]
 video = ["av (==9.2.0)", "decord (==0.6.0)"]
 vision = ["Pillow"]
+
+[[package]]
+name = "typeguard"
+version = "3.0.2"
+description = "Run-time type checker for Python"
+category = "main"
+optional = false
+python-versions = ">=3.7.4"
+files = [
+    {file = "typeguard-3.0.2-py3-none-any.whl", hash = "sha256:bbe993854385284ab42fd5bd3bee6f6556577ce8b50696d6cb956d704f286c8e"},
+    {file = "typeguard-3.0.2.tar.gz", hash = "sha256:fee5297fdb28f8e9efcb8142b5ee219e02375509cd77ea9d270b5af826358d5a"},
+]
+
+[package.dependencies]
+typing-extensions = {version = ">=4.4.0", markers = "python_version < \"3.11\""}
+
+[package.extras]
+doc = ["packaging", "sphinx-autodoc-typehints (>=1.2.0)", "sphinx-rtd-theme"]
+test = ["mypy (>=0.991)", "pytest (>=7)"]
 
 [[package]]
 name = "typing-extensions"
@@ -5159,4 +5214,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.11"
-content-hash = "2c0810b91ff79ef4bde4f32e6644efc49a86e229890db9110b21c44a6e3195e0"
+content-hash = "d145ec0a68441827174388b669daa00d2ca360bd0c4ed44da9a9d8cb6bf5690d"
