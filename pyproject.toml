@@ -29,6 +29,7 @@ tokenizers = "^0.13.3"
 tensorboard = "^2.13.0"
 tensorflow-addons = "^0.21.0"
 sentencepiece = "^0.1.99"
+torch = "^2.0.1"
 
 [build-system]
 requires = ["poetry-core"]
