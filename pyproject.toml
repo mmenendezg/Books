@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "books"
+version = "1.4"
+description = "Project that contains the books used to learn ML"
+authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+tensorflow-macos = "^2.13.0"
+tensorflow-metal = "^1.0.1"
+flake8 = "^6.1.0"
+black = "^23.7.0"
+matplotlib = "^3.7.2"
+pandas = "^2.0.3"
+polars = "^0.18.13"
+seaborn = "^0.12.2"
+transformers = "^4.31.0"
+datasets = "^2.14.4"
+evaluate = "^0.4.0"
+jupyterlab = "^4.0.4"
+pylance = "^0.6.0"
+ipykernel = "^6.25.1"
+bertviz = "^1.4.0"
+accelerate = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
