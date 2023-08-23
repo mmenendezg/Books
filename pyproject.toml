@@ -24,6 +24,7 @@ pylance = "^0.6.0"
 ipykernel = "^6.25.1"
 bertviz = "^1.4.0"
 accelerate = "^0.21.0"
+seqeval = "^1.2.2"
 
 
 [build-system]
