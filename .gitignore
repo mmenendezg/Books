@@ -8,11 +8,10 @@
 packages/
 
 # Project folders not to be tracked
-*/datasets/
-*/reports/
-*/models/
-*/model/
-homl/reports/
+datasets/
+reports/
+models/
+model/
 
 # Cache files
 __pycache__
