@@ -11,6 +11,7 @@ packages/
 */datasets/
 */reports/
 */models/
+*/model/
 homl/reports/
 
 # Cache files
