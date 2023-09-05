@@ -1,33 +1,32 @@
 [tool.poetry]
 name = "books"
 version = "1.4"
-description = ""
+description = "Project that contains the books used to learn ML"
 authors = ["Marlon Menendez <marlon.menendezg@gmail.com>"]
+license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
 tensorflow-macos = "^2.13.0"
 tensorflow-metal = "^1.0.1"
-flake8 = "^6.0.0"
+flake8 = "^6.1.0"
 black = "^23.7.0"
 matplotlib = "^3.7.2"
 pandas = "^2.0.3"
-polars = "^0.18.9"
+polars = "^0.18.13"
 seaborn = "^0.12.2"
 transformers = "^4.31.0"
-datasets = "^2.14.1"
+datasets = "^2.14.4"
 evaluate = "^0.4.0"
-jupyterlab = "^4.0.3"
-pylance = "^0.5.10"
-ipykernel = "^6.25.0"
-tensorflow-hub = "^0.14.0"
-tensorflow-datasets = "^4.9.2"
-tensorboard-plugin-profile = "^2.13.1"
-pylint = "^2.17.5"
-tokenizers = "^0.13.3"
-tensorboard = "^2.13.0"
-tensorflow-addons = "^0.21.0"
+jupyterlab = "^4.0.4"
+pylance = "^0.6.0"
+ipykernel = "^6.25.1"
+bertviz = "^1.4.0"
+accelerate = "^0.21.0"
+seqeval = "^1.2.2"
+pyright = "^1.1.325"
+
 
 [build-system]
 requires = ["poetry-core"]

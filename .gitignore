@@ -8,21 +8,20 @@
 packages/
 
 # Project folders not to be tracked
-*/datasets/
-*/reports/
-*/models/
-homl/reports/
+datasets/
+reports/logs/
+models/
+model/
 
 # Cache files
 __pycache__
 __pypackages__
 *.pdm.toml
-.venv
+.venv/
 
 # VS Code files
 .vscode
 *.code-workspace
-
 
 # Added by cargo
 /src
